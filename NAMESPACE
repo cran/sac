@@ -1,0 +1,5 @@
+
+export(BootsChapt, BootsModelTest, Sn.alfa,
+CV.Epidemic.Vn, CV.Epidemic.Wn, cumsum.test, Graf.Diagnostic,
+Plot.ll, p.OneChange, p.Epidemic.Vn, p.Epidemic.Wn, schapt,
+SemiparChangePoint)
