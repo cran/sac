@@ -1,6 +1,6 @@
 Package: sac
-Version: 1.0
-Date: 2005-04-04
+Version: 1.0.1
+Date: 2009-02-25
 Title: Semiparametric Analysis of Changepoint
 Author: Zhong Guan <zguan@iusb.edu>
 Maintainer: Zhong Guan <zguan@iusb.edu>
@@ -8,5 +8,6 @@ Depends: R (>= 1.4)
 Description: Semiparametric empirical likelihood ratio
     based test of changepoint with one-change or epidemic alternatives
     with data-based model diagnostic
-License: GPL 2.0 or newer
-Packaged: Thu May  5 15:57:48 2005; zguan
+Encoding: latin1
+License: GPL (>= 2)
+Packaged: Wed Feb 25 09:15:47 2009; hornik
