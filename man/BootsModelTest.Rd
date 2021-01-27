@@ -25,8 +25,7 @@ BootsModelTest(x, k, m, B, Alpha, Beta, tol = 1.0e-7, maxit=50, trace=FALSE)
   \item{trace}{ logical indicating if output should be produced for each
           iteration, an argument of \code{\link{glm.control}}.}
 }
-\details{
-}
+
 \value{
   \item{Delta  }{The test statistic of the model validity}
   \item{Pvalue }{The bootstrapped \code{p}-value }
@@ -40,7 +39,6 @@ Guan, Z.(2004) A semiparametric changepoint model, \emph{Biometrika}, 91, 4, 849
 Guan, Z. Semiparametric Tests for Change-points with Epidemic Alternatives.
 }
 \author{ Zhong Guan \email{zguan@iusb.edu}}
-\note{ }
 
 \seealso{ \code{\link{SemiparChangePoint}}, \code{\link{schapt}}}
 \examples{

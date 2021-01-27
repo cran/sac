@@ -32,10 +32,9 @@ for \code{Vn} and \code{Wn}.
 Critical values
 }
 \references{
-Csörgo, M. and Horváth, L. (1997),
+Csorgo, M. and Horvath, L. (1997),
 \emph{Limit Theorems in Change-Point Analysis}, New York: John Wiley}
 \author{ Zhong Guan  \email{zguan@iusb.edu}}
-\note{ }
 
 \seealso{ \code{\link{schapt}}}
 \examples{

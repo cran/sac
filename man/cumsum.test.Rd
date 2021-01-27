@@ -13,19 +13,17 @@ cumsum.test(x, alternative = c("one.change", "epidemic"))
   \item{alternative}{ a character string specifying the alternative hypothesis,
           must be one of \code{"one-change"} (default) or \code{"epidemic"}.  You can specify just the initial letter.}
 }
-\details{
-}
+
 \value{
   \item{Sn }{test statistic}
   \item{k.hat }{estimated change-point}
   \item{m.hat }{the second estimated change-point for epidemic alternative}
 }
 \references{
-Csörgo, M. and Horváth, L. (1997),
+Csorgo, M. and Horvath, L. (1997),
 \emph{Limit Theorems in Change-Point Analysis}, New York: John Wiley
 }
 \author{ Zhong Guan \email{zguan@iusb.edu}}
-\note{  }
 
 \seealso{ \code{\link{cumsum}} }
 \examples{

@@ -21,8 +21,7 @@ p.Epidemic.Wn(Wn, tol = 1e-07)
   \item{d}{ dimension of the data value }
   \item{tol}{ the desired accuracy. }
 }
-\details{
-}
+
 \value{
   \item{p.value }{\code{p}-value}
 }
@@ -35,7 +34,7 @@ Guan, Z.(2004) A semiparametric changepoint model, \emph{Biometrika}, 91, 4, 849
 Guan, Z. Semiparametric Tests for Change-points with Epidemic Alternatives.
  }
 \author{ Zhong Guan \email{zguan@iusb.edu} }
-\note{ }
+
 
 \seealso{ \code{\link{schapt}}, \code{\link{BootsChapt}}}
 \examples{

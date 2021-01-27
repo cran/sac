@@ -34,7 +34,7 @@ schapt<-function(x, n.boots = 0, replace = FALSE, alternative = c("one.change", 
         #### this is not correct.
     }
     if(nc == 2){
-        Vn<-res$Vn; Wn<-res$Wn
+        Sn<-res$Sn; Vn<-res$Vn; Wn<-res$Wn
         pvalue.Vn<-p.Epidemic.Vn(Vn,r, tol=0.000001)
         pvalue.Wn<-p.Epidemic.Wn(Wn, tol=0.000001)
         m.hat<-res$m.hat
@@ -94,12 +94,12 @@ schapt<-function(x, n.boots = 0, replace = FALSE, alternative = c("one.change", 
         est <-c(alpha.hat, beta.hat)
         names(est)<-c("alpha","beta")
         if(!model.test || n.model.boots == 0 ){
-            stats <-c(Vn, Wn); names(stats)<-c("Vn", "Wn")
+            stats <-c(Sn, Vn, Wn); names(stats)<-c("Sn", "Vn", "Wn")
             if(n.boots >= 1 ) p.value<-c(pvalue.Vn,pvalue.Wn,p.boots.Vn, p.boots.Wn)
             else p.value<-c(pvalue.Vn,pvalue.Wn)
         }
         else{
-            stats <-c(Vn, Wn, Delta); names(stats)<-c("Vn", "Wn", "Delta")
+            stats <-c(Sn, Vn, Wn, Delta); names(stats)<-c("Sn", "Vn", "Wn", "Delta")
             if(n.boots >= 1 ) p.value<-c(pvalue.Vn,pvalue.Wn,p.boots.Vn, p.boots.Wn,p.value.model)
             else p.value<-c(pvalue.Vn,pvalue.Wn,p.value.model)
         }

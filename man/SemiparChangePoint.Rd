@@ -29,7 +29,7 @@ density (frequency) functions of the two hypothesized populations, and \eqn{T(x)
 \eqn{T(x)=x}{T(x)=x} or \eqn{T(x)=(x,x^2)}{T(x)=(x,x^2)}.  The procedure will fail when there is separation in the data in the
 sense of Albert \& Anderson(1984, \emph{Biometrika}) and Santner \& Duffy (1986, \emph{Biometrika}).
 In this case, the change-point(s) may be detected easily using nonparametric method
-based on cumsum. Currently, this function does not check whether the data is separated.
+based on cumsum. Currently, this function does not check whether the data are separated.
 }
 \value{
   \item{k.hat }{change-point estimate}

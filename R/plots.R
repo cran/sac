@@ -77,7 +77,7 @@ Plot.ll<-function(x, ll, col, xaxis.lab = NULL, xlab="k", ylab="Loglikelihood", 
     cat("change-point = ",chpt,"\n")
     plot(0:n,ll,xlab=xlab,ylab=ylab, main=main,col=col, axes=FALSE, frame.plot=T,...)#,pch=".")
     segments(chpt,1.5*ll[n+1],chpt,ll[chpt+1],lty=2)
-    axis(1, chpt-n*2.5/100,  tick = F, lab = expression(hat(k)), cex.axis = 1, col.axis = "red")
+    axis(1, chpt-n*2.5/100,  tick = F, labels = expression(hat(k)), cex.axis = 1, col.axis = "red")
     axis(1, chpt,  tick = TRUE, "=", cex.axis = 1, col.axis = "black")
     sq<-3:10
     at.x<-seq(0, n, length = 1+min(sq[n%%sq==0]))
